@@ -1,2 +1,4 @@
-console.log('App is working')
-document.querySelector('h1').textContent = 'Working'
+import { bootstrap } from './framework/core/bootstrap';
+import { appModule } from './app/app.module';
+
+bootstrap(appModule)
